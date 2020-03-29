@@ -44,5 +44,8 @@
     "nim": "nim compile --verbosity:0 --hints:off --run"
   },
   "code-runner.runInTerminal": true,
-  "C_Cpp.errorSquiggles": "Disabled"
+  "C_Cpp.errorSquiggles": "Disabled",
+  "files.associations": {
+    "iostream": "cpp"
+  }
 }
