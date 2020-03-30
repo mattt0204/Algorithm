@@ -1,4 +1,4 @@
-# Algorithm study
+
 
 I study algorithm at  [BaaaaaaaarkingDog](https://blog.encrypted.gg/) . 
 
@@ -29,7 +29,7 @@ https://murra.tistory.com/28
 
 
 
-### Prime of Coding
+## Primary skill of Coding
 
 - [1000](https://www.acmicpc.net/problem/1000) 
 - [10171](https://www.acmicpc.net/problem/10171)
@@ -58,6 +58,15 @@ https://murra.tistory.com/28
 - [2444](https://www.acmicpc.net/problem/2444)
 - [2445](https://www.acmicpc.net/problem/2445)
 - [2446](https://www.acmicpc.net/problem/2446)
+
+## Array
+
+- [10808](https://www.acmicpc.net/problem/10808)
+- [10807](https://www.acmicpc.net/problem/10807)
+- [11328](https://www.acmicpc.net/problem/11328)
+- [13300](https://www.acmicpc.net/problem/13300)
+- [1475](https://www.acmicpc.net/problem/1475)
+- [1919](https://www.acmicpc.net/problem/1919)
 
 
 
