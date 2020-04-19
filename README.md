@@ -68,5 +68,9 @@ https://murra.tistory.com/28
 - [1475](https://www.acmicpc.net/problem/1475)
 - [1919](https://www.acmicpc.net/problem/1919)
 
+## Linked  List
 
+- [1406](https://www.acmicpc.net/problem/1406)
+- [5397](https://www.acmicpc.net/problem/5397)
+- [1158](https://www.acmicpc.net/problem/1158)
 
