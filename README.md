@@ -74,3 +74,35 @@ https://murra.tistory.com/28
 - [5397](https://www.acmicpc.net/problem/5397)
 - [1158](https://www.acmicpc.net/problem/1158)
 
+
+
+## Stack
+
+- [10828](https://www.acmicpc.net/problem/10828)
+- [10773](https://www.acmicpc.net/problem/10773)
+- [1874](https://www.acmicpc.net/problem/1874)
+- [2493](https://www.acmicpc.net/problem/2493)
+- [6198](https://www.acmicpc.net/problem/6198)
+
+
+
+## Queue
+
+- [10845](https://www.acmicpc.net/problem/10845)
+- [18258](https://www.acmicpc.net/problem/18258)
+- [2164](https://www.acmicpc.net/problem/2164)
+
+## Deque
+
+- [10866](https://www.acmicpc.net/problem/10866)
+- [1021](https://www.acmicpc.net/problem/1021)
+- [5430](https://www.acmicpc.net/problem/5430)
+
+
+
+
+
+
+
+
+
