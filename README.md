@@ -59,7 +59,7 @@ https://murra.tistory.com/28
 - [2445](https://www.acmicpc.net/problem/2445)
 - [2446](https://www.acmicpc.net/problem/2446)
 
-## Array
+## Array *
 
 - [10808](https://www.acmicpc.net/problem/10808)
 - [10807](https://www.acmicpc.net/problem/10807)
@@ -76,7 +76,7 @@ https://murra.tistory.com/28
 
 
 
-## Stack
+## Stack *
 
 - [10828](https://www.acmicpc.net/problem/10828)
 - [10773](https://www.acmicpc.net/problem/10773)
@@ -98,9 +98,20 @@ https://murra.tistory.com/28
 - [1021](https://www.acmicpc.net/problem/1021)
 - [5430](https://www.acmicpc.net/problem/5430)
 
+## PairOfBrackets (Uses Of Stack) *
 
+- [9012](https://www.acmicpc.net/problem/9012)
+- [10799](https://www.acmicpc.net/problem/10799)
+- [2504](https://www.acmicpc.net/problem/2504)
+- [2493](https://www.acmicpc.net/problem/2493)
 
+## BFS_DFS
 
+- [1926](https://www.acmicpc.net/problem/1926)
+- [2178](https://www.acmicpc.net/problem/2178)
+- [7576](https://www.acmicpc.net/problem/7576)
+- [1697](https://www.acmicpc.net/problem/1697)
+- [1012](https://www.acmicpc.net/problem/1012)
 
 
 
