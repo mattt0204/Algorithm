@@ -91,24 +91,38 @@ int main() {
   int result = 0, temp = 0;
   for (int i = 0; i < r; i++) {
     for (int j = 0; j < c; j++) {
-      // 가장자리면에서
-      if (i == 0 || j == 0 || i == r - 1 || j == c - 1)
-        // 지훈이과 불이 갈 수 있는 곳이고 지훈이 더 빨리 도착하고
-        // 이전 도착 시간보다 빠르다면 탈출가능 (최초 등록시)
-        if (temp == 0 && Jboard[i][j] == 0 && Fboard[i][j] == 0 &&
-            Jvis[i][j] < Fvis[i][j]) {
-          //위 조건 만족시 탈출은 가능
-          result = Jvis[i][j] + 1;
-          temp = 1;
+      // 가장자리 면에서
+      if (i == 0 || j == 0 || i == r - 1 || j == c - 1) {
+
+        // 최초 등록,
+        if (temp == 0) {
+          // 지훈은 방문했지만 불은 오지 못한 경우
+          if (Fvis[i][j] == -1 && Jvis[i][j] != -1) {
+            result = Jvis[i][j] + 1;
+            temp = 1;
+          }
+          // 지훈과 불이 방문했을 때 지훈이 빨리 온 경우 체크
+          if (Jvis[i][j] != -1 && Fvis[i][j] != -1 && Jvis[i][j] < Fvis[i][j]) {
+            result = Jvis[i][j] + 1;
+            temp = 1;
+          }
         }
-        // 이전의 값보다 현재의 값이 작다면 바꾸어라 (최초 등록 아닐시)
-        else if (temp == 1 && Jboard[i][j] == 0 && Fboard[i][j] == 0 &&
-                 Jvis[i][j] < Fvis[i][j] && result > Jvis[i][j] + 1) {
-          result = Jvis[i][j] + 1;
+        //최초 등록아니면서 기존의 값보다 더 작다면 바꾸기
+        else {
+          if (Fvis[i][j] == -1 && Jvis[i][j] != -1 && result > Jvis[i][j] + 1) {
+            result = Jvis[i][j] + 1;
+          }
+          //
+          if (Jvis[i][j] != -1 && Fvis[i][j] != -1 && Jvis[i][j] < Fvis[i][j] &&
+              result > Jvis[i][j] + 1) {
+            result = Jvis[i][j] + 1;
+          }
         }
+      }
     }
   }
-  // 가장자리에 지훈이 있으면
+
+  // 최초 가장 자리에 지훈이 있었다면 1
   for (int i = 0; i < r; i++) {
     for (int j = 0; j < c; j++) {
       if (i == 0 || j == 0 || i == r - 1 || j == c - 1)
@@ -116,6 +130,7 @@ int main() {
           result = Jvis[i][j] + 1;
     }
   }
+
   if (result == 0)
     cout << "IMPOSSIBLE";
   else
