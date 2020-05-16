@@ -2,11 +2,10 @@
 
 I study algorithm at  [BaaaaaaaarkingDog](https://blog.encrypted.gg/) . 
 
-I use c++17, 
+I write code by  c++17, 
 
-[g++ Complier](http://www.mingw.org/)
-
-[VS Code](https://code.visualstudio.com/)
+- [g++ Complier](http://www.mingw.org/)
+- [VS Code](https://code.visualstudio.com/)
 
 **VS Extension**
 
@@ -18,6 +17,10 @@ Coding style is LLVM
 
 
 https://blog.encrypted.gg/
+
+This is workbook code for coding test.
+
+https://www.acmicpc.net/group/workbook/view/4490/23104
 
 
 
@@ -113,6 +116,7 @@ https://murra.tistory.com/28
 - [1697](https://www.acmicpc.net/problem/1697)
 - [1012](https://www.acmicpc.net/problem/1012)
 - [4179](https://www.acmicpc.net/problem/4179)
+- [7569](https://www.acmicpc.net/problem/7569)
 
 
 
