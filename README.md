@@ -108,7 +108,7 @@ https://murra.tistory.com/28
 - [2504](https://www.acmicpc.net/problem/2504)
 - [2493](https://www.acmicpc.net/problem/2493)
 
-## BFS_DFS
+## BFS
 
 - [1926](https://www.acmicpc.net/problem/1926)
 - [2178](https://www.acmicpc.net/problem/2178)
@@ -117,6 +117,10 @@ https://murra.tistory.com/28
 - [1012](https://www.acmicpc.net/problem/1012)
 - [4179](https://www.acmicpc.net/problem/4179)
 - [7569](https://www.acmicpc.net/problem/7569)
+
+## DFS
+
+- [9466](https://www.acmicpc.net/problem/9466)
 
 
 
