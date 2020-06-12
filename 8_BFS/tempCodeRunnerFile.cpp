@@ -1,2 +1,4 @@
-quickSort(v, 0, total - 1);
- 
+
+    area[limit - 1] = num;
+    limit++;
+  }
