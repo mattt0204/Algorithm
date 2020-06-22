@@ -26,12 +26,13 @@ int main() {
   int year = 0;
   int kernal;
   bool checkTwo = false;
-  while (!checkTwo) {
+  while (1) {
     // DFS로 두 덩어리 이상인지 확인하기
     kernal = 0;
     stack<pair<int, int>> s;
     for (i = 0; i < n; i++) {
       for (j = 0; j < m; j++) {
+
         if (vis[i][j] == 0 && arr[i][j] > 0) {
           s.push({i, j});
           vis[i][j] = 1;
@@ -53,7 +54,7 @@ int main() {
         }
       }
     }
-    // 초기 설정 또는 한번씩 2개 이상인지 체크하고 탈출
+    // 초기, iteration 할 때마다 2개 이상인지 체크하고 탈출
     if (kernal >= 2) {
       checkTwo = true;
       break;
@@ -62,7 +63,7 @@ int main() {
     else if (kernal == 0) {
       break;
     }
-    // 뺄 행렬 초기화
+    // 뺄 행렬, 방문 행렬 초기화
     for (i = 0; i < n; i++) {
       fill(sub[i], sub[i] + 300, 0);
       fill(vis[i], vis[i] + 300, 0);
@@ -81,16 +82,27 @@ int main() {
             if (arr[nx][ny] == 0)
               sub[i][j]++;
           }
-          // 빙산 줄어든 높이
-          arr[i][j] = arr[i][j] - sub[i][j];
-          // 음수가 생길경우 0으로 정정
-          if (arr[i][j] < 0) {
-            arr[i][j] = 0;
-          }
         }
       }
     }
-
+    // 세아려 놓은 것 빼기.
+    for (i = 0; i < n; i++) {
+      for (j = 0; j < m; j++) {
+        // 빙산 줄어든 높이
+        arr[i][j] = arr[i][j] - sub[i][j];
+        // 음수가 생길경우 0으로 정정
+        if (arr[i][j] < 0) {
+          arr[i][j] = 0;
+        }
+      }
+    }
+    // 확인
+    // for (i = 0; i < n; i++) {
+    //   for (j = 0; j < m; j++) {
+    //     cout << arr[i][j] << ' ';
+    //   }
+    //   cout << '\n';
+    // }
     year++;
   }
 

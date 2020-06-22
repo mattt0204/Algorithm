@@ -127,7 +127,7 @@ https://murra.tistory.com/28
 - [2667](https://www.acmicpc.net/problem/2667)
 - [10026](https://www.acmicpc.net/problem/10026)
 
-
+- [2573](https://www.acmicpc.net/problem/2573)
 
 
 
